@@ -12,5 +12,5 @@
         <i class="fa fa-arrow-alt-circle-right"> ► ► ► Show all jobs</i>
     </a>
 
-    <x-bottom/>
+
 </x-layout>
