@@ -10,7 +10,7 @@
 
         <p class="mt text-gray-500">
             Do not have an account?
-            <a class="text-blue-500" href="{{route('register')}}">Register</a>
+            <a class="text-blue-500" href="{{route('register')}}">Login</a>
         </p>
         </form>
     </div>
