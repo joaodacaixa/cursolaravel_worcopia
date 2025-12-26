@@ -4,7 +4,7 @@
             Unlock Your Potencial!
         </h2>
         <p class="text-lg mt-2">
-            Discover the Perfect oppportunity job for you!
+            Discover the Perfect opportunity job for you!
         </p>
     </div>
 </section>
