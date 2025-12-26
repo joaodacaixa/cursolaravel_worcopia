@@ -43,7 +43,8 @@
         x-show="open"
         x-transition
         x-cloak
-        class="md:hidden bg-blue-900 text-white mt-5 px-4 space-y-2"
+        class="md:hidden bg-blue-900 text-white mt-5 px-4
+       flex flex-col space-y-4"
     >
         <x-nav-link url="/jobs" :mobile="true" @click="open=false">All Jobs</x-nav-link>
 
@@ -51,9 +52,9 @@
             <x-nav-link url="/bookmarks" :active="request()->is('bookmarks')" :mobile="true">Bookmarks</x-nav-link>
             <x-nav-link url="/dashboard" :mobile="true" @click="open=false">Dashboard</x-nav-link>
 
-            <x-logout-button @click="open=false" />
+            <x-logout-button class="block w-full text-left py-2 hover:bg-blue-800" @click="open=false" />
 
-            <x-button-link url="/jobs/create" @click="open=false">
+            <x-button-link url="/jobs/create" class="block w-full text-center" @click="open=false">
                 Create Job
             </x-button-link>
         @else
