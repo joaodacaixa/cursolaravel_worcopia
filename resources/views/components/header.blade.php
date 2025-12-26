@@ -43,7 +43,7 @@
         x-show="open"
         x-transition
         x-cloak
-        class="md:hidden bg-blue-900 text-white mt-5 pb-4 space-y-2"
+        class="md:hidden bg-blue-900 text-white mt-5 px-4 space-y-2"
     >
         <x-nav-link url="/jobs" :mobile="true" @click="open=false">All Jobs</x-nav-link>
 
