@@ -37,7 +37,7 @@ class Job extends Model
     ];
     //relation to user
     public function user():BelongsTo{
-        return $this->blongsTo(User::class);
+        return $this->belongsTo(User::class);
     }
 
     //relation to bookmarks
