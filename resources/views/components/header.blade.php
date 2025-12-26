@@ -48,7 +48,7 @@
         <x-nav-link url="/jobs" :mobile="true" @click="open=false">All Jobs</x-nav-link>
 
         @auth
-            <x-nav-link url="/jobs/saved" :mobile="true" @click="open=false">Saved Jobs</x-nav-link>
+            <x-nav-link url="/bookmarks" :active="request()->is('bookmarks')" :mobile="true">Bookmarks</x-nav-link>
             <x-nav-link url="/dashboard" :mobile="true" @click="open=false">Dashboard</x-nav-link>
 
             <x-logout-button @click="open=false" />
